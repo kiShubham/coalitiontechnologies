@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #e3b748;
+  --color-black: #121212;
+  --color-white: #fff;
+  --color-background: #1d1d1d;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+}
+img,
+svg {
+  display: block;
+  /* max-width: 100%; */
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: "Inter", sans-serif;
+  color: var(--color-white);
+  overflow-x: hidden;
+}

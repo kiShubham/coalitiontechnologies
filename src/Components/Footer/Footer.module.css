@@ -1,0 +1,11 @@
+.footer {
+  background: #404e6b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  font-style: italic;
+  color: #61759e;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

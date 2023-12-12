@@ -1,0 +1,24 @@
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.child1 {
+  display: flex;
+  gap: 10px;
+}
+.child2 {
+  display: flex;
+  gap: 30px;
+}
+.child2 > button {
+  border: none;
+  background: none;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
